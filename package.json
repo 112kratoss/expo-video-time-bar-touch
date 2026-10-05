@@ -1,10 +1,11 @@
 {
-  "name": "repro57",
+  "name": "expo-video-time-bar-touch",
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
     "expo": "~57.0.26",
     "expo-status-bar": "~57.0.1",
+    "expo-video": "~57.0.5",
     "react": "19.2.3",
     "react-native": "0.86.3"
   },
@@ -14,8 +15,8 @@
   },
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "private": true
